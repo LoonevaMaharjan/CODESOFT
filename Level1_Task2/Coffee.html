@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Coffee.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Coffee Website</title>
+</head>
+<body>
+        <section id="home">
+            <nav>
+                <h2 class="heading2">COFFEE <span>POT</span></h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutus">About us</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contactus">Contact us</a></li>
+                </ul> 
+            </nav>
+            <div class="homepg">
+                <h4>Welcome!</h4>
+                <h5>Coffee on go</h5>
+
+            </div>
+            <div class="image-slider">
+                <img src="./Images/coffee2.webp" alt="Image 1">
+                <img src="./Images/slide1.jpg" alt="Image 2">
+                <img src="./Images/slide2.jpg" alt="Image 3">
+                
+            </div>
+        </section>
+        
+        <section id="aboutus">
+            <div class="title">
+                <div class="container">
+                    <img src="./Images/coffee3.webp">
+                    <div class="text">
+                       <h2>About us</h2>
+                       <p>Coffee beans are harvested and directly sent to us. Coffee is freshly brewed. Any types of coffee you want is available here.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="menu">
+                <div class="topic">
+                    <h2>Our Recent menu</h2>
+                </div>
+                <div class="menu-list">
+                <div class="grid-container">
+                    <div class="grid1"><img src="./Images/Latte1.jpg"><p>Latte</p>
+                    <button class="but">Rs.150</button></div>
+                    <div class="grid1"><img src="./Images/Expresso1.jpg"><p>Expresso</p>
+                    <button class="but">Rs.120</button></div>
+                    <div class="grid1"><img src="./Images/Americano1.jpg"><p>Americano</p><button class="but">Rs.140</button></div>
+                    <div class="grid1"><img src="./Images/Affogato1.jpg"><p>Affogato</p><button class="but">Rs.250</button></div>
+                    <div class="grid1"><img src="./Images/Macchiato1.jpg"><p>Macchiato</p><button class="but">Rs.290</button></div>
+                    <div class="grid1"><img src="./Images/Mocha1.jpg"><p>Mocha</p><button>Rs.290</button class=but></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contactus">
+            <h2>Contact Us</h2>
+            <div class="container">
+                <form action="/form/submit" method="POST" >
+                    <label for="fname">FirstName</label> <input type = "text" id="fname" name="name" placeholder="Type Your First Name..."><br>
+                    <label for="lname">LastName</label> <input type="text" id="lname" name="surname" placeholder="Type Your Last Name..."><br>
+                    <label for="lname">Email Address</label> <input type="text" id="mail" name="e-mail" placeholder="Type your Email Address..."><br>
+                    <label for="message">Message</label> <textarea id="message" name="message" placeholder="Any message?" style="height:50px"></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+             </div>
+        </section>
+        <footer>
+            Copyright@2022 
+        </footer>
+</body>
+</html>
